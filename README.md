@@ -1,18 +1,32 @@
-# news-image-20261124
+# World News — Tuesday 24 November 2026
 
 [![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 [![rank](https://make.fun/badge/news-image-20261124/daring-otter-85/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 [![reward](https://make.fun/badge/news-image-20261124/daring-otter-85/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
-A newspaper front-page poster summing up Tuesday 24 November 2026's world news in one image: Nvidia reinstates Jensen Huang as CEO after a Trump push (shares jump 33%), Ukraine hits a Russian warship off Libya, the Russian war dead in Ukraine near 500,000 per hacked data, US states sue Musk's firms over Grok's sexualised images, and Thanksgiving travel chaos looms as storms and airline glitches threaten holiday trips.
+One picture, five stories from Tuesday 24 November 2026, laid out as
+a newspaper front page:
 
-## Run it
+- **Nvidia brings Huang back** — the board reinstates Jensen Huang as
+  CEO after a push from Trump; the shares jump 33%.
+- **Ukraine strikes at sea** — a Russian warship is hit off Libya as
+  the conflict spreads beyond Europe.
+- **The war's death toll** — hacked data puts Russian war dead in
+  Ukraine near 500,000.
+- **Grok in court** — US states sue Musk's companies over sexualised
+  images made with the AI chatbot.
+- **Holiday travel warning** — storms and airline glitches threaten a
+  messy Thanksgiving getaway.
+
+## How it runs
 
 ```sh
 python3 main.py
 ```
 
-This writes the poster to `/output/entry.png` (1024×576 PNG, under 1 MiB). The run is fully deterministic — it copies the bundled image, with no network access.
+The script copies the poster bundled in this repository to
+`/output/entry.png` (1024×576 PNG, under 1 MiB). It needs no network
+and no random input, so every run writes the same bytes.
 
 ---
 
